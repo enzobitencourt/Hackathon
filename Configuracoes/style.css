@@ -1,0 +1,76 @@
+* {
+   background-color: #FAFAFE;
+   margin: 0;
+
+}
+
+.headerprincipal {
+   width: 375;
+   height: auto;
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+}
+
+#img {
+   width: 3vh;
+   height: 12;
+   margin: 8px;
+   background-color: #f5faff;
+   position: relative;
+   
+
+}
+
+#tituloprincipal {
+   margin-left: 30px;
+
+}
+
+.iconconfig {
+   display: flex;
+   max-width: 375px;
+   padding: 6px;
+   align-items: center;
+   border-radius: 3px;
+   margin: 6px;
+   background: linear-gradient(0deg, #FFF 0%, #FFF 100%), rgba(255, 255, 255, 0.80);
+   box-shadow: 2px 0px 20px 0px rgba(24, 57, 107, 0.05);
+   border: 6px solid #f5faff;
+   border-radius: 16px;
+}
+
+.iconlogout {
+   display: flex;
+   max-width: 375px;
+   padding: 16px;
+   align-items: center;
+   border-radius: 3px;
+   margin-top: 10p;
+}
+
+#iconefinal {
+   display: flex;
+   max-width: 375px;
+   padding: 16px;
+   align-items: center;
+   border-radius: 3px;
+   margin-top: 10p;
+}
+
+div {
+   border-radius: 1vw;
+   font-size: 20px;
+ 
+   
+}
+#botaoir {
+   width: 1.5vh;
+   height: 6;
+   margin: 8px;
+   background-color: #f5faff;
+   position: absolute;
+   right: 18px;
+   
+   
+}

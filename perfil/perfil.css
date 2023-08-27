@@ -1,0 +1,303 @@
+*{
+    background-color: #FAFAFE;
+    margin: 0;
+    padding: 1vh 0;
+}
+
+.HeaderPrincipal{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#DivEsquerda{
+    position: absolute;
+    width: 33%;
+    margin-left: 5%;
+}
+
+#DivCentro{
+    position: absolute;
+    width: 33%;
+    margin-left: 40%;
+}
+
+#DivDireita{
+    position: absolute;
+    width: 33%;
+    margin-left: 75%;
+}
+
+#Img{
+    width: 20vw;
+    height: 12;
+}
+
+.DivPerfil{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 0px 20px 0px rgba(24, 57, 107, 0.05);
+    width: 80%;
+    height: 15vh;
+    background-color: white;
+    border-radius: 16px;
+    gap: 2vw;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#ImgPerfil{
+    position: relative;
+    margin-left: 6%;
+    margin-top: 3%;
+    width: 22vw;
+    height: 11vh;
+    border-radius: 21px;
+}
+
+#DivPerfilDireita{
+    position: relative;
+    background-color: white;
+    width: 40vw;
+    height: 11vh;
+}
+
+#NomePerfil{
+    position: relative;
+    margin-left: 4%;
+    margin-top: -1%;
+    font-size: 18px;
+}
+
+.texto1{
+    display: flex;
+    margin-top: -8%;
+    width: 25vw;
+    height: 3vh;
+}
+
+#Item1{
+    position: relative;
+    width: 25px;
+    height: 25px;
+}
+
+#textoo{
+    position: relative;
+    margin-top: 5%;
+    font-size: 13px;
+}
+
+.texto2{
+    display: flex;
+    margin-top: -5%;
+    background-color: blueviolet;
+    width: 25vw;
+    height: 3vh;
+}
+
+#a{
+    position: relative;
+    margin-top: -7%;
+    width: 25px;
+    height: 25px;
+}
+
+#b{
+    position: relative;
+    margin-top: -39px;
+    margin-left: 25px;
+    font-size: 13px;
+}
+
+.DivPrimeiroCard{
+    box-shadow: 2px 0px 20px 0px rgba(24, 57, 107, 0.05);
+    width: 80%;
+    height: 10vh;
+    background-color: white;
+    border-radius: 16px;
+    gap: 2vw;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#DivNome{
+    display: flex;
+    height: 4vh;
+    width: 55vw;
+}
+
+#ItemPrimeiroCard{
+    display: flex;
+    margin-top: -9px;
+    margin-left: 10px;
+    width: 10vw;
+    height: 3vh;
+}
+
+#TituloCard1{
+    margin-top: -4px;
+    font-size: 18px;
+}
+
+#TextoPrimeiroCard{
+    margin-left: 23px;
+}
+
+.DivSegundoCard{
+    box-shadow: 2px 0px 20px 0px rgba(24, 57, 107, 0.05);
+    width: 80%;
+    height: 10vh;
+    background-color: white;
+    border-radius: 16px;
+    gap: 2vw;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#DivCpf{
+    display: flex;
+    height: 4vh;
+    width: 55vw;
+}
+
+#ItemSegundoCard{
+    display: flex;
+    margin-top: -9px;
+    margin-left: 10px;
+    width: 10vw;
+    height: 3vh;
+}
+
+#TextoSegundoCard{
+    margin-left: 23px;
+}
+
+#TituloCard2{
+    margin-top: -4px;
+    font-size: 18px;
+}
+
+.DivTerceiroCard{
+    box-shadow: 2px 0px 20px 0px rgba(24, 57, 107, 0.05);
+    width: 80%;
+    height: 10vh;
+    background-color: white;
+    border-radius: 16px;
+    gap: 2vw;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#DivResidencia{
+    display: flex;
+    height: 4vh;
+    width: 55vw;
+}
+
+#ItemTerceiroCard{
+    display: flex;
+    margin-top: -9px;
+    margin-left: 10px;
+    width: 10vw;
+    height: 3vh;
+}
+
+#TextoTerceiroCard{
+    margin-left: 23px;
+}
+
+#TituloCard3{
+    margin-top: -4px;
+    font-size: 18px;
+}
+
+.DivQuartoCard{
+    box-shadow: 2px 0px 20px 0px rgba(24, 57, 107, 0.05);
+    width: 80%;
+    height: 10vh;
+    background-color: white;
+    border-radius: 16px;
+    gap: 2vw;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+#DivCaderneta{
+    display: flex;
+    height: 4vh;
+    width: 55vw;
+}
+
+#ItemQuartoCard{
+    display: flex;
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 10vw;
+    height: 3vh;
+}
+
+#TituloCard4{
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    height: 83px;
+    background-color: #f2f2f6;
+}
+
+footer div {
+    padding-inline-start: 10px;
+    background-color: white;
+    height: 83px;
+    border-radius: 16px 16px 0 0 ;
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 26px;
+}
+
+footer div div {
+    display: block;
+}
+
+footer div div p {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #929CAD;
+}
+
+.imagens-footer {
+    margin-left: 0px;
+}
+
+#imagem-ajustes-botao {
+    margin-left: 12px;
+}
+#imagem-perfil-laranja-botao {
+    margin-top: -4px;
+    height: 29px;
+}
+
+#texto-laranja {
+    margin-top: -4px;
+    color: #F9C557  ;
+}
+
+#imagem-home-botao {
+    margin-left: 7px;
+}
+#imagem-consultas-botao {
+    margin-left: 18px;
+}
+#imagem-informa-botao {
+    margin-left: 12px;
+}
